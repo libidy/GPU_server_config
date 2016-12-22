@@ -1,0 +1,18 @@
+# remove existing nvidia-dirver
+sudo apt-get --purge remove nvidia*
+sudo reboot
+
+# after reboot
+sudo service lightdm stop
+sudo init 3
+sudo bash NVIDIA_NEW_DRIVER.run
+
+# install nvidia-docker
+
+
+================= or ====================
+sudo apt-add-repository ppa:graphics-drivers/ppa
+sudo apt-get update
+
+
+
