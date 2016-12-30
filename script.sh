@@ -20,7 +20,7 @@ sudo apt-get install ubuntu-extras-keyring
 sudo apt-get update && sudo apt-get -y upgrade
 sudo apt-get -y install vim git make htop nload openssh-client openssh-server \
   bridge-utils nfs-common \
-  zlib1g-dev unzip
+  zlib1g-dev unzip libssl-dev
 
 # Install docker
 cd ~/
